@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>0xStoek</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>0xStoek</title>
 <style>
     * {
         font-family: sans-serif;
@@ -44,13 +45,20 @@
         background-color: black;
     }
 
+    .block-links--container {
+        width: 100%;
+    }
+
     .block-links--wrapper {
         margin-bottom: 1rem;
     }
 
     .block-links--title {
         font-weight: 500;
-        font-size: 1.25;
+        font-size: .875rem;
+        text-transform: uppercase;
+        margin-left: 0.6rem;
+        color: #666;
     }
 
     .logo {
@@ -61,6 +69,7 @@
     }
 
     .link-wrapper {
+        display: block;
         border: 1px solid #999;
         margin-bottom: .5rem;
         padding: .5rem;
@@ -85,6 +94,10 @@
             max-width: 360px;
             justify-self: flex-end;
         }
+
+        .block-links--container {
+            width: 360px;
+        }
     }
 </style>
 </head>
@@ -104,21 +117,21 @@
         </section>
 
         <section class="block block-links">
-            <div>
+            <div class="block-links--container">
                 <div class="block-links--wrapper">
                     <h2 class="block-links--title">Art</h2>
-                    <div class="link-wrapper"><a href="https://exchange.art/artists/0xStoek/nfts">Digital NFT Art at Exchange Art</a></div>
-                    <div class="link-wrapper"><a href="https://instagram.com/0xStoek">Instagram | Graffiti</a></div>
-                    <div class="link-wrapper"><a href="https://collector.sh/0xStoek">Art Collection</a></div>
+                    <a class="link-wrapper" href="https://exchange.art/artists/0xStoek/nfts">Digital NFT</a>
+                    <a class="link-wrapper" href="https://instagram.com/0xStoek">Street Art</a>
+                    <a class="link-wrapper" href="https://collector.sh/0xStoek">My Collection</a>
                 </div>
                 <div class="block-links--wrapper">
-                    <h2 class="block-links--title">Code and Infosec</h2>
-                    <div class="link-wrapper"><a href="https://ethicalhacking.sh/">EthicalHacking.sh | Cybersec CTF walkthroughs</a></div>
+                    <h2 class="block-links--title">Tech</h2>
+                    <a class="link-wrapper" href="https://ethicalhacking.sh/">Ethical Hacking</a>
                 </div>
 
                 <div class="block-links--wrapper">
                     <h2 class="block-links--title">Social</h2>
-                    <div class="link-wrapper"><a href="https://twitter.com/0xStoek">Twitter</a></div>
+                    <a class="link-wrapper" href="https://twitter.com/0xStoek">Twitter</a>
                 </div>
             </div>
         </section>
